@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(180deg, #ff7e23 0, #ff6835 12.5%, #ff5142 25%, #ff364a 37.5%, #f8104e 50%, #de0050 62.5%, #c60052 75%, #b10055 87.5%, #9e0058 100%);
+    background-repeat: no-repeat;
+    height: 98.3vh;
+}
+
+nav {
+    text-align: center;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+margin-top: 15%;
+}
+
+.txt{
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1%;
+    font-size: 1em;
+    width: 13%;
+    height: 4vh;
+    padding: 0.4%;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 1%;
+    margin-left: 1%;
+    
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.315);
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.btn:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: black;
+    box-shadow: 0px 0px 10px 10px rgba(255, 255, 255, 0.315);
+
+}
+
+h2{
+    color: whitesmoke;
+}
+
+
+
+h3{
+    text-align: center;
+    margin-left: auto;
+    text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.87);
+    background: linear-gradient(180deg, rgba(246, 255, 0, 0.763) 0%, #00ff00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 90%; /* 9.827px */
+    letter-spacing: 4.96px;
+    }
